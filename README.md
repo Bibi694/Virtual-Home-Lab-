@@ -12,7 +12,7 @@ This is a beginner friendly cybersecurity home lab I built using VirtualBox to s
 |--------------|---------------------------------------|-------------------------------------|
 | *Operation*| HR PC, Audit PC, Sales PC, Server     | Simulate internal company network   |
 | *IT*       | Kali Linux, Parrot OS, Ubuntu         | Tools for monitoring and simulation |
-| *Firewall* | pfSense                               | Will segment and protect the network|
+
 
 ---
 
@@ -23,7 +23,6 @@ This is a beginner friendly cybersecurity home lab I built using VirtualBox to s
 - Machines are grouped logically under:
   - *Operation*: HR, Sales, Audit, Windows Server
   - *IT*: Kali, Ubuntu, Parrot OS
-- *pfSense* will be added to segment traffic between internal zones (Operation ↔ IT)
 
 ---
 
@@ -34,7 +33,7 @@ This is a beginner friendly cybersecurity home lab I built using VirtualBox to s
 - *Windows Server* for central services
 - *Ubuntu* for log collection and SIEM setup (in future)
 - *Kali Linux* and *Parrot OS* for red/blue team simulation
-- *pfSense* (for firewall and network segmentation)
+  
 
 ---
 
@@ -50,7 +49,7 @@ This is a beginner friendly cybersecurity home lab I built using VirtualBox to s
 | *Ubuntu ISO* | [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop) |
 | *Kali Linux ISO* | [https://www.kali.org/get-kali/](https://www.kali.org/get-kali/) |
 | *Parrot OS ISO* | [https://www.parrotsec.org/download/](https://www.parrotsec.org/download/) |
-| *pfSense ISO* | [https://www.pfsense.org/download/](https://www.pfsense.org/download/) |
+
 
 ---
 
@@ -85,7 +84,7 @@ This is a beginner friendly cybersecurity home lab I built using VirtualBox to s
 
 5. *Set Up NAT Network*
    - In *VirtualBox → Preferences → Network → NAT Networks*
-   - Create a NAT Network and name it (e.g., SOC-Network)
+   - Create a NAT Network and name it
    - Assign this network to all VMs under *Settings → Network → Adapter 1 → NAT Network*
 
 6. *Group VMs*
@@ -97,7 +96,7 @@ This is a beginner friendly cybersecurity home lab I built using VirtualBox to s
 ## 🧱 Next Steps (Planned)
 
 - ✅ Finish VM installations
-- 🔜 Install and configure *pfSense* firewall
+  
 - 🔜 Assign static IPs and segment networks (Operation ↔ IT)
 - 🔜 Start sending logs and monitoring systems
 - 🔜 Run basic attacks using Kali and detect them using Ubuntu
@@ -110,9 +109,8 @@ This is a beginner friendly cybersecurity home lab I built using VirtualBox to s
 Cybersecurity Beginner | SOC Analyst in Training  
 This repo documents my learning journey in building a full virtual home lab from scratch.
 
-📍 Based in Nigeria  
-🔗 Let’s connect on [LinkedIn](#https://www.linkedin.com/in/
-biodun-alameen-)
+💼 Follow my journey on [LinkedIn](https://linkedin.com/in/biodun-alamin-)
+🛠 Projects | 💡 Lab Practice | 📚 Learning in Public
 
 
 ---
